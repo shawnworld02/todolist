@@ -1,0 +1,29 @@
+.todo-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.hasDone-Wrap {
+  display: flex;
+  align-items: center;
+}
+
+.hasDone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btn-danger {
+  padding: 10px;
+  background: rgb(239, 150, 150);
+  border-radius: 5px;
+  border: 0 none;
+  outline: none;
+}
+
+.btn-danger:hover {
+  background-color: rgb(240, 104, 104);
+  cursor: pointer;
+}
